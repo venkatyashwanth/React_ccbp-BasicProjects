@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.super-over-league-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    min-height: 100vh;
+}
+
+.heading{
+    font-family: "Roboto";
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+/* Screen Size Larger than 768px */
+@media screen and (min-width: 768px){
+    .heading{
+        font-size: 6.4rem;
+    }
+}
+
+.logo-image{
+    width: 15rem;
+    height: 15rem;
+}
+
+/* Screen Size Larger than 768px */
+@media screen and (min-width: 768px){
+    .logo-image{
+        width: 30rem;
+        height: 30rem;
+    }    
+}
